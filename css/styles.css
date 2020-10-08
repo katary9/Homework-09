@@ -237,8 +237,12 @@ padding-left: 20px;
   input.turn:checked:after {
     left: 10px;
   }
+  .video img {
+width: 25vw;
+  height: 15vw;
+  }
 .video {
-  margin-left: 269px;
+  margin-left: 250px;
   
 
 }
@@ -250,22 +254,28 @@ padding-left: 20px;
   max-width: 1440px;
    width: 100%;
    margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
   
-background-image: url(../img/SAMPLE05.jpg);
+background-image: url(../img/back.png);
 background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   
 }
 .info_content {
-   flex-basis: 50%;
+  
    max-width: 505px;
    padding-left: 10%;
   
    margin-bottom: 10%;
 
 }
+.img_phon {
+  padding-top: 54px;
+}
 .info_text {
+  
    padding-top: 217px;
    
 flex-basis: 41.11%; /*ширина*/
@@ -325,7 +335,7 @@ color: #4F4F4F;
   max-width: 1440px;
    width: 100%;
    margin: 0 auto;
-  margin-top: 76px;
+   display: flex;
     background-image: url(../img/11111.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,7 +345,9 @@ color: #4F4F4F;
 
 }
 .columns_wrapper {
-   max-width: 1440px;
+   margin-top: 76px;
+  
+   
   
 }
 .columns_title {
@@ -350,18 +362,42 @@ font-weight: bold;
 font-size: 28px;
 line-height: 37px;
 padding-top: 76px;
+margin-bottom: 58px;
 }
 .columns_row {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 83%;
+  margin: 0 auto;
+  justify-content: space-between;
+  
+   
+  
+  
 }
+.gh {
+  
+}
+
 .column_1 {
-  width: 26%;
+  max-width: 311px;
+  
+  
+  box-sizing: border-box;
+  
+  margin-bottom: 50px;
+}
+.column_1 p {
+  
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+  padding-top: 16px;
 }
 
 
-
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   header {
     text-align: center;
     background-image:none
@@ -439,12 +475,13 @@ padding-top: 76px;
  
     }
     .columns {
-      max-width:90% ;
+      max-width:100% ;
     }
     .section_info {
       display: flex;
       flex-direction: column;
       text-align: center; 
+      background-image: none;
     }
     .info_text {
       margin-top: 62px;
