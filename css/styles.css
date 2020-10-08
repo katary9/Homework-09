@@ -333,6 +333,13 @@ font-size: 28px;
 line-height: 37px;
 padding-top: 76px;
 }
+.columns_row {
+  display: flex;
+  justify-content: space-around;
+}
+.column_1 {
+  width: 26%;
+}
 
 
 
@@ -377,13 +384,28 @@ padding-top: 76px;
       max-width: 100%;
       justify-content: center;
     }
-    /*------Main-------------------------------------------------------------------------*/
-  }
-    @media (max-width: 750px) {
     .section_match {
       display: flex;
       flex-direction: column;
-      background-color: blue;
     }
+    .match_box {
+      order: 2;
+    }
+    .what {
+      order: 1;
+      max-width:90% ;
     
+    flex-grow: 1;
+    text-align: center;
+    
+    margin: 0 auto;
+    background: #F4F6F9;
+    padding-left: 0;
+      padding-top: 6%;
     }
+    .columns {
+      
+    }
+    /*------Main-------------------------------------------------------------------------*/
+  }
+   
