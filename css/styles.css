@@ -231,13 +231,7 @@ padding-left: 20px;
     box-shadow: 0px 1.43985px 1.43985px rgba(0, 0, 0, 0.25);
   }
   
-  input.turn:checked {
-    background-color: blue;
-  }
-  
-  input.turn:checked:after {
-    left: 10px;
-  }
+ 
   .video img {
 width: 100%;
 height: auto;
@@ -908,6 +902,26 @@ max-width: 318px;
       padding: 4px;
      
    }
+   .section_match{
+     background-image:  linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5), url(../img/Rectangle.png);
+
+   }
+   .match_card {
+ margin: 0 auto;
+ width: 247px;
+ 
+ 
+ 
+   }
+   .video img {
+margin: 0 auto;
+margin-left: -170px;
+
+ 
+height: auto;
+max-width: 247px;
+min-width: 247px;
+  }
 
   }
    
