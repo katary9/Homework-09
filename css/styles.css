@@ -900,9 +900,12 @@ max-width: 318px;
    }
    .footer_nav ul, li {
      display: flex;
+
+     
      flex-shrink: 0;
       max-width: 200px;
-      padding: 10px;
+      
+      padding: 4px;
      
    }
 
